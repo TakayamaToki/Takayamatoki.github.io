@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>FC2ホームページ - 無料ホームページスペース</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <!-- アイコンフォントの利用方法 http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        // 画面上部にスクロールするボタン
+        $(function() {
+            var pageTop = $('.btn-pagetop');
+            pageTop.hide();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 600) {
+                    pageTop.fadeIn();
+                } else {
+                    pageTop.fadeOut();
+                }
+            });
+            pageTop.click(function() {
+                $('body, html').animate({
+                    scrollTop: 0
+                }, 500, 'swing');
+                pageTop.blur();
+                return false;
+            });
+        });
+    </script>
+</head>
+
+    <div class="header">
+        <p class="header-description">気まぐれに不定期にソフトを開発していく</p>
+        <h1 class="header-title">TakayamaTokiのソフトウェア保管所</h1>
+    </div>
+
+<body id="top">
+    <div class="nav">
+        <ul class="nav-group">
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./download.html">ダウンロード</a></li>
+            <li><a href="./progress.html" class="active"><i class="fa fa-home"></i>&nbsp;進捗情報</a></li>
+            <li><a href="./comment.html">コメント</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="article">
+            <div class="article-date"><i class="fa fa-clock-o"></i>&nbsp;20xx年xx月xx日</div>
+            <h2 class="article-title">記事の見出し</h2>
+            <img class="img-rounded article-img" src="//placehold.it/960x400/dddddd/ffffff.png&text=IMAGE">
+            <p class="article-paragraph">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            </p>
+            <h3 class="article-paragraph-title">段落の見出し</h3>
+            <p class="article-paragraph">
+                <img class="img-circle article-img_left" src="//placehold.it/200x200/dddddd/ffffff.png&text=IMAGE"> この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+            </p>
+            <p class="article-paragraph">
+                <img class="img-thumbnail article-img_right" src="//placehold.it/200x200/dddddd/ffffff.png&text=IMAGE"> この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+            </p>
+        </div>
+
+        <div class="article">
+            <h2 class="article-title">更新履歴</h2>
+            <ul class="article-list">
+                <li>
+                    <span class="article-list-date">20xx年xx月xx日</span>更新情報が入ります<span class="label label_normal">ラベル</span>
+                </li>
+                <li>
+                    <span class="article-list-date">20xx年xx月xx日</span>更新情報が入ります<span class="label label_primary">ラベル</span>
+                </li>
+                <li>
+                    <span class="article-list-date">20xx年xx月xx日</span>更新情報が入ります<span class="label label_success">ラベル</span>
+                </li>
+                <li>
+                    <span class="article-list-date">20xx年xx月xx日</span>更新情報が入ります<span class="label label_warning">ラベル</span>
+                </li>
+                <li>
+                    <span class="article-list-date">20xx年xx月xx日</span>更新情報が入ります<span class="label label_danger">ラベル</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="article">
+            <h2 class="article-title">テンプレートで利用できるパーツ</h2>
+            <p class="article-paragraph">
+                ソースをコピー・アンド・ペーストしてご利用ください。<br />
+            </p>
+            <h3 class="article-paragraph-title">テキスト</h3>
+            <p class="article-paragraph">
+                <span class="text_normal">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="text_primary">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="text_success">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="text_warning">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="text_danger">文字の大きさ、量、字間、行間等を確認するために入れています。</span>
+            </p>
+            <h3 class="article-paragraph-title">メッセージ</h3>
+            <p class="article-paragraph">
+                <span class="message message_normal">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="message message_default">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="message message_primary">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="message message_success">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="message message_warning">文字の大きさ、量、字間、行間等を確認するために入れています。</span><br />
+                <span class="message message_danger">文字の大きさ、量、字間、行間等を確認するために入れています。</span>
+            </p>
+            <h3 class="article-paragraph-title">ボタン</h3>
+            <p class="article-paragraph">
+                <a href="" class="btn btn_lg btn_normal">大ボタン</a>
+                <a href="" class="btn btn_lg btn_default">大ボタン</a>
+                <a href="" class="btn btn_lg btn_primary">大ボタン</a>
+                <a href="" class="btn btn_lg btn_success">大ボタン</a>
+                <a href="" class="btn btn_lg btn_warning">大ボタン</a>
+                <a href="" class="btn btn_lg btn_danger">大ボタン</a>
+            </p>
+            <p class="article-paragraph">
+                <a href="" class="btn btn_normal">中ボタン</a>
+                <a href="" class="btn btn_default">中ボタン</a>
+                <a href="" class="btn btn_primary">中ボタン</a>
+                <a href="" class="btn btn_success">中ボタン</a>
+                <a href="" class="btn btn_warning">中ボタン</a>
+                <a href="" class="btn btn_danger">中ボタン</a>
+            </p>
+            <p class="article-paragraph">
+                <a href="" class="btn btn_sm btn_normal">小ボタン</a>
+                <a href="" class="btn btn_sm btn_default">ボタン</a>
+                <a href="" class="btn btn_sm btn_primary">小ボタン</a>
+                <a href="" class="btn btn_sm btn_success">小ボタン</a>
+                <a href="" class="btn btn_sm btn_warning">小ボタン</a>
+                <a href="" class="btn btn_sm btn_danger">小ボタン</a>
+            </p>
+            <h3 class="article-paragraph-title">パネル</h3>
+            <div class="panel">
+                <div class="panel-header">パネルの見出しが入ります</div>
+                <div class="panel-body">文字の大きさ、量、字間、行間等を確認するために入れています。</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="address">
+        <div class="address-body">
+            <strong class="address-body-name">会社名・団体名・個人名が入ります</strong>
+            <div class="address-body-addressline">〒123-4567 東京都千代田区XXX町12-3 千代田ビル4F</div>
+            <strong class="address-body-tel"><i class="fa fa-phone"></i>&nbsp;123-4567-8910</strong>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-nav">
+            <ul class="footer-nav-group">
+                <li><a href="#"><i class="fa fa-envelope-o"></i>&nbsp;Mail</a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i>&nbsp;Twitter</a></li>
+                <li><a href="#"><i class="fa fa-facebook-official"></i>&nbsp;Facebook</a></li>
+            </ul>
+        </div>
+        <div class="footer-text">ホームページに関する注意事項など入ります</div>
+        <div class="footer-copyright">Copyright &copy; 20xx xxxxx.</div>
+    </div>
+
+    <a href="#top" class="btn-pagetop"><i class="fa fa-arrow-up"></i></a>
+
+</body>
+
+</html>
